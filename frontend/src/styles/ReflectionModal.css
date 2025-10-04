@@ -1,0 +1,103 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modal-content {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-content h2 {
+  color: #667eea;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.modal-message {
+  font-size: 1.1rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.modal-subtitle {
+  color: #666;
+  text-align: center;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.reflection-suggestions {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.reflection-suggestions h3 {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.reflection-suggestions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reflection-suggestions li {
+  padding: 10px 0;
+  color: #555;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.reflection-suggestions li:last-child {
+  border-bottom: none;
+}
+
+.modal-actions {
+  text-align: center;
+}
+
+.btn-close {
+  padding: 12px 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-close:hover {
+  transform: scale(1.05);
+}

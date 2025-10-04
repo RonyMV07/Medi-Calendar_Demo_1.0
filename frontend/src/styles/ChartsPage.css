@@ -1,0 +1,84 @@
+.charts-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.charts-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.charts-content h1 {
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.control-group label {
+  color: #666;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.control-group select {
+  padding: 10px 15px;
+  border: 2px solid #e1e8ed;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  min-width: 200px;
+}
+
+.control-group select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.chart-container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  color: #667eea;
+  font-size: 1.2rem;
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+}
+
+.no-data p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.no-data p:first-child {
+  color: #333;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
