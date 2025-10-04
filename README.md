@@ -5,7 +5,7 @@
 ## Descripción
 
 Aplicación web desarrollada con el stack MERN (MongoDB, Express.js, React, Node.js) que permite a los usuarios:
-- Registrar datos de salud diarios (cardiovascular, sueño, ejercicio, peso, medicación, citas)
+- Registrar datos de salud diarios (cardiovascular, sueño, ejercicio y peso) próximamente se agregarán los registros de medicación y citas médicas
 - Visualizar evolución de métricas en el tiempo
 - Mantener adherencia a tratamientos y hábitos saludables
 - Reflexionar sobre barreras y procrastinación
