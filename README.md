@@ -5,6 +5,19 @@
 
 ## 📝 Descripción
 
+Aplicación web desarrollada con el stack MERN (MongoDB, Express.js, React, Node.js) que permite a los usuarios:
+- Registrar datos de salud diarios (cardiovascular, sueño, ejercicio y peso) próximamente se agregarán los registros de medicación y citas médicas
+- Visualizar evolución de métricas en el tiempo
+- Mantener adherencia a tratamientos y hábitos saludables
+- Reflexionar sobre barreras y procrastinación
+
+## Tecnologías
+
+- **Backend**: Node.js, Express, MongoDB, JWT
+- **Frontend**: React, Chart.js, React Calendar, Axios
+- **Base de datos**: MongoDB
+
+## Instalación
 Medi-Calendar es una herramienta intuitiva que te permite llevar un registro diario de tus datos de salud. El objetivo principal es ayudarte a visualizar la evolución de tus métricas a lo largo del tiempo, fomentar la adherencia a tratamientos y hábitos saludables, y reflexionar sobre las barreras y la procrastinación en tu camino hacia un mayor bienestar.
 
 ## ✨ Características
